@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.border {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(118.38deg, #29323c -4.6%, #485563 200.44%);
+  box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 1000px;
+  height: 1000px;
+}
+
+.rectangle {
+  position: absolute;
+}
+
+.active {
+  border: 5px solid red;
+}
+
+.showDistance {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.btnPage {
+  padding: 10px;
+  font-size: 40px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
